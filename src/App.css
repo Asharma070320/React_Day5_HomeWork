@@ -6,27 +6,31 @@
 .aside{
   width: 100%;
   height: 100vh;
-  
   /* border: 2px solid red; */
 }
 .container{
   width: 100%;
   height: 150%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-image: url('https://img.freepik.com/free-vector/vector-boho-art-tribal-doodle-sketch-spear-corner-frame_53876-173589.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703203200&semt=ais');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: black; */
   /* margin-top: 5rem; */
   text-align: center;
 }
-/* h1{
-  padding-top: 4rem;
+h1{
+  padding-top: 8rem;
 }
 .content{
   margin-top: 1rem;
-} */
+}
 .line{
   text-decoration: underline;
 }
 .boldd{
+  text-decoration: underline;
   font-weight: 600;
 }
 .side{
@@ -37,7 +41,16 @@
 .btn{
   padding: 5px;
   cursor: pointer;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 10px;
+}
+.btn:hover{
+  transition: 0.4s ease-in-out;
+  background-color: black;
+  color: white;
 }
   .shift{
     margin: 10px;
+   
   }

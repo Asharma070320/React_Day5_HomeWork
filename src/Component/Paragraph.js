@@ -43,7 +43,7 @@ function Paragraph(){
             <div className="shift">
             {
                 Arr.map((list)=>{
-                    return <p> {list}</p>
+                    return <p className="shift"> {list}</p>
                 })
             }
             </div>
