@@ -16,10 +16,10 @@ function Paragraph(){
     function clickBtn(){
        if(Value<1){
         setArr([]);
-        alert("AMan")
+        alert("😉 Please enter the number between 1 to 8")
        }else if(Value>Para.length){
         setArr([]);
-        alert("Lucky")
+        alert("Ayyoo! 🙄 u entered large number")
        }else{
         setArr(
             Para.map((val,index)=>{
